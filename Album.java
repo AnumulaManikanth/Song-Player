@@ -30,7 +30,7 @@ public class Album {
             System.out.println(title + "successfully added to the list");
             return true;
         } else {
-            System.out.println("Song with name" + titile + "already exist in the list");
+            System.out.println("Song with name" + title + "already exist in the list");
             return false;
         }
     }
@@ -38,7 +38,7 @@ public class Album {
     public boolean addToPlayList(int trackNumber, LinkedList<Song> PlayList) {
         int index = trackNumber - 1;
         if (index > 0 && index <= this.songs.size()) {
-            playList.add(this.songs.get(index));
+            PlayList.add(this.songs.get(index));
             return true;
         }
         return false;
