@@ -13,8 +13,6 @@ public class Song {
     public double getDuration() {
         return duration;
     }
-
-    @override
     public String toString() {
         return "Song{title=" + title + "\n" + ",duration=" + duration + '}';
     }
