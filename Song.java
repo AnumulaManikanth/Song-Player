@@ -6,11 +6,6 @@ public class Song {
         this.title = title;
         this.duration = duration;
     }
-
-    public Song() {
-
-    }
-
     public String getTitle() {
         return title;
     }
